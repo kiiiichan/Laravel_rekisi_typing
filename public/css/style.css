@@ -1,0 +1,136 @@
+body {
+    background-color:#EDE3CE; /*背景*/
+    font-family: "Hiragino Sans" ;
+    font-size: 14px; /*素の文字？*/
+    color: #5E199B; /*素の文字の色？紫*/
+    margin: 0; /*？？*/
+}
+
+/*
+.bg-text {
+  border: solid none;
+  display: inline-block;
+  padding:10px 20px;
+  background-color:#EDE3CE ;
+}
+
+.bg {
+  text-align: center;
+  padding: 150px;
+  border:none;
+}
+
+.bg {
+  background-image: url(../image/bg.png);
+}
+*/
+
+h1 {
+    margin: 0 0 10px 0; /*コンテンツの上右下左のマージン*/
+    padding: 0;
+}
+
+header {
+  margin-top: 20px;
+}
+
+input[type="url"] {
+  border: 10px solid #0D95A0;
+  outline: 0;
+  width: 350px;
+  height: 30px;
+  background-color:#0D95A0;
+  font-size: 20px;
+  font-weight:bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+/*
+button[type="button"]{
+  border: 6px solid #0D95A0;
+  outline: 0;
+  width: 100px;
+  height: 50px;
+  background-color:#0D95A0;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight:bold;
+  border-radius: 0 20px 20px 0;
+}
+*/
+#start_button[type="button"] {
+  border: 6px solid #DD372A;
+  outline: 0;
+  width: 200px;
+  height: 50px;
+  background-color:#DD372A;
+  color:#ffffff;
+  font-size: 26px;
+  font-weight:bold;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.container {
+  width: 560px; /*要素自体の横幅（高さはheight）*/
+  margin: 0 auto 40px auto; /*左右のmarginを auto とすると中心に配置できる*/
+}
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 32px;
+}
+.text-sub {
+  color: #777;
+}
+
+.illust-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.illust {
+  width: 200px;
+  margin-right: 35px;
+  float: left;
+}
+
+#image {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-color:#EDE3CE;
+}
+
+#timer {
+  color:#DD372A;
+  text-align: left;
+  float: left;
+}
+
+#itemCounter {
+  color:#5E199B; 
+  text-align: right;
+  float: right;
+  margin-right:200px;
+}
+
+
+.left-contents {
+    width: 240px;
+    height: 240px;
+    margin-right:10px;
+    float: left;
+
+}
+
+.right-contents {
+    width: 300px;
+    height: 240px;
+    margin-top:30px;
+    float: left;
+}
