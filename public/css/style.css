@@ -26,7 +26,7 @@ body {
 */
 
 h1 {
-    margin: 0 0 10px 0; /*コンテンツの上右下左のマージン*/
+
     padding: 0;
 }
 
@@ -72,7 +72,7 @@ button[type="button"]{
 
 .container {
   width: 560px; /*要素自体の横幅（高さはheight）*/
-  margin: 0 auto 40px auto; /*左右のmarginを auto とすると中心に配置できる*/
+  margin: 0 auto 0 auto; /*左右のmarginを auto とすると中心に配置できる*/
 }
 
 .header-title-area {
@@ -87,11 +87,7 @@ button[type="button"]{
   color: #777;
 }
 
-.illust-area:after {
-  clear: both;
-  display: block;
-  content: " ";
-}
+
 .illust {
   width: 200px;
   margin-right: 35px;
@@ -99,7 +95,7 @@ button[type="button"]{
 }
 
 #image {
-  margin-bottom: 10px;
+
   width: 200px;
   height: 200px;
   display: block;
@@ -119,18 +115,32 @@ button[type="button"]{
   margin-right:200px;
 }
 
+.flex_wrap {
+  display:flex;
+}
+
+#kanji {
+  color: #777;
+  text-align: center;  
+  width: 350px;
+}
+
+#kana {
+  color: #777;
+  text-align: center;  
+  width: 350px;
+}
+
 
 .left-contents {
     width: 240px;
     height: 240px;
     margin-right:10px;
-    float: left;
 
 }
 
 .right-contents {
     width: 300px;
-    height: 240px;
-    margin-top:30px;
-    float: left;
+    height: 210px;
+    margin-top:0px;
 }

@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('/home', 'Controller@index');
 
+Route::get('/prize', 'Controller@prize');
+
